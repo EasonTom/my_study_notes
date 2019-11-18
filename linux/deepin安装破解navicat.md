@@ -1,0 +1,21 @@
+之前写过一篇linux系统下安装破解navicat，本来是下载的安装包，但是deepin的应用商店中有navicat，可以直接下载安装部分，所以省去下载安装部分。
+
+## 破解方式１
+
+第一次打开navicat，会在用户主目录的.navicat（隐藏文件夹）下生成一个system.reg的文件，这个文件是用来记录navicat是否注册及注册时间过期时间的，打开软件默认会有14天的试用期，试用期一到将system.reg删掉又可以重新试用。
+
+## 破解方式２
+
+linux版navicat其实就是Windows绿色版+wine打包，如果是在官网上下载的navicat安装包，里面会附带有wine的安装，注意这个wine不是所有软件的wine。如果其他的navicat安装包可能没有封装wine，此时需要自行安装wine，这里不作介绍。
+
+①在解压后的目录中与start_navicat文件同级的目录Navicat中找到Navicat.exe，复制到本地windows系统桌面。
+
+下一个PatchNavicat.exe的navicat补丁工具运行一下，破解这个Navicat.exe③再复制回去替换原文件即可。
+
+④如果还是没破解，则把当初下的安装包navicat120_mysql_cs_x64.tar.gz在本地windows整体解压，再运行PatchNavicat.exe找到这个解压目录下的Navicat.exe进行破解，再整体复制到linux替换原文件。
+
+或者直接网上查找windows的破解版本然后将全部文件放在linux解压目录的navicat目录下面。
+
+
+
+该方法在使用安装包安装时可以，但是不知道deepin系统应用商店把包装在哪里的，所以没有试，先暂时用第一种方法。
