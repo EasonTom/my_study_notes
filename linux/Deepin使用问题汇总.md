@@ -220,3 +220,7 @@ flush privileges;
 退出mysql。
 
 4. 将第1步加入的那行注释掉，重启服务，然后就可以使用密码登录了。
+
+# deepin 安装 phantomjs
+
+<https://blog.csdn.net/qq_36148847/article/details/79338108>

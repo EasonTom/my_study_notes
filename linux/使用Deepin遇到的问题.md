@@ -150,4 +150,75 @@ gpg: keyserver receive failed: No dirmngr
 
 从报错看出系统在连接一个代理的时候被拒绝，表示wireshake在安装的时候设置了系统代理，通过上网查到解决办法，在linux的系统设置中找到系统代理，将自动改成无就可以上网了。
 
+# deepin安装appium
 
+# 安装nodejs:
+
+```
+sudo apt-get install nodejs
+```
+
+# 安装npm
+
+```
+apt-get install npm	
+```
+
+# 安装appium
+
+Appium Server其实可以通过命令 npm install -g appium来安装。不过由于众所周知的网络原因，直接使用这样安装会非常非常慢，甚至会安装失败，所以我们可以使用国内镜像来安装。
+
+```
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+cnpm install -g appium
+```
+
+npm的包安装分为本地安装（local）、全局安装（global）两种，一般我们推荐使用全局安装。
+
+appium运行
+
+```
+>appium
+
+[Appium] Welcome to Appium v1.7.2
+
+[Appium] Appium REST http interface listener started on 0.0.0.0:4723
+```
+
+如果输入appium后显示：“appium不是内部或外部命令,也不是可运行的程序或批处理文件” 可以将appium安装的路径 如： “C:\Users\Shuqing\AppData\Roaming\npm”配置到系统环境变量Path中
+
+按键 ctrl+c 选择y 即可退出
+
+## 安装Appium-desktop
+
+下载地址：<https://github.com/appium/appium-desktop/releases>
+
+上面提到的问题可以使用前面我们已经介绍了Appium Server来解决，Appium-desktop工具其实也封装了Appium server和Node.js依赖环境。
+
+appium-desktop是我们初学者最容易上手的工具，后面课程首先会基于这个工具来讲解！然后再基于appium 命令来讲。
+
+## **安装Appium-Python-Client**
+
+通过命令： **pip install Appium-Python-Client** 进行安装。
+
+
+
+参考：
+
+```
+https://www.cnblogs.com/gongxr/p/10656393.html
+https://www.cnblogs.com/windhome/p/8024835.html
+```
+
+# deepin安装sdk
+
+参考：
+
+<https://blog.csdn.net/xudong_98/article/details/79286187>
+
+<https://blog.csdn.net/u011974797/article/details/78973012>
+
+# deepin安装anyproxy
+
+<https://www.jianshu.com/p/d978d3b8f2aa>
