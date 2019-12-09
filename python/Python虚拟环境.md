@@ -79,13 +79,13 @@ Options:
 然后进入虚拟环境：
 
     source envname/bin/activate
-    
+
 进入后发现在命令提示符前面会有一个包含虚拟环境名称的前缀，表示当前的Python环境。然后就可以在该环境下执行各种操作而不会影响到系统的Python环境。
 
 退出虚拟环境
 
     deactivate
-    
+
 ## 2 virtualenvwrapper
 
 虚拟环境的引入解决了我们关于环境冲突的问题，但是它同时也带来了一个问题，就是虚拟环境过多所带来的管理问题。virtualenvwrapper就是专门用来解决虚拟环境管理问题的一个工具。我们可以很方便地用它来实现对虚拟环境的创建，删除，拷贝，并且可以轻松地在不同环境间进行切换。
@@ -93,7 +93,7 @@ Options:
 首先需要安装virtualenvwrapper，安装之前要确定virtualenv已经安装：
 
     pip install virtualwrapper
-    
+
 
 
 安装完成后，需要将virtualenvwrapper.sh脚本添加到shell启动文件中。
@@ -107,15 +107,15 @@ Options:
 
 ```
 export WORKON_HOME=$HOME/.virtualenvs
-Optionalexport PROJECT_HOME=$HOME/projects
-Optionalsource /usr/local/bin/virtualenvwrapper.sh
+export PROJECT_HOME=$HOME/projects
+source /usr/local/bin/virtualenvwrapper.sh
 ```
 $HOME 代表用户主目录
 
 然后运行：
 
     source ~/.bashrc
-    
+
 然后就会在$WORKON_HOME所在的路径下创建集中存放虚拟环境的目录.virtualenvs，之后创建的虚拟环境都会存放在该路径线下。
 
 接下来就可以使用命令管理虚拟环境。
