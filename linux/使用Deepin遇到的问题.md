@@ -171,7 +171,7 @@ Appium Server其实可以通过命令 npm install -g appium来安装。不过由
 ```
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 npm install -g cnpm --registry=https://registry.npm.taobao.org
-cnpm install -g appium
+cnpm install -g appium@1.7.1
 ```
 
 npm的包安装分为本地安装（local）、全局安装（global）两种，一般我们推荐使用全局安装。
@@ -189,6 +189,14 @@ appium运行
 如果输入appium后显示：“appium不是内部或外部命令,也不是可运行的程序或批处理文件” 可以将appium安装的路径 如： “C:\Users\Shuqing\AppData\Roaming\npm”配置到系统环境变量Path中
 
 按键 ctrl+c 选择y 即可退出
+
+appium卸载：
+
+```
+npm uninstall -g appium
+```
+
+
 
 ## 安装Appium-desktop
 
@@ -209,6 +217,7 @@ appium-desktop是我们初学者最容易上手的工具，后面课程首先会
 ```
 https://www.cnblogs.com/gongxr/p/10656393.html
 https://www.cnblogs.com/windhome/p/8024835.html
+https://blog.csdn.net/qq_28863845/article/details/82999633
 ```
 
 # deepin安装sdk
@@ -222,3 +231,9 @@ https://www.cnblogs.com/windhome/p/8024835.html
 # deepin安装anyproxy
 
 <https://www.jianshu.com/p/d978d3b8f2aa>
+
+
+
+# chromedriver下载地址
+
+<http://npm.taobao.org/mirrors/chromedriver/>
