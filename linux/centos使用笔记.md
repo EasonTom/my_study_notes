@@ -8,3 +8,6 @@
 
 <https://blog.csdn.net/qq_39478237/article/details/90167761>
 
+# mkvirtualenv创建虚拟环境时提示无此命令
+
+安装完virtualenv和virtualenvwrapper包后，输入mkvirtualenv提示没有找到该命令，原因是系统没有将命令加入到环境变量（ubuntu和deepin好像是自动加的），需要手动加入，参考：<https://blog.csdn.net/liu_xzhen/article/details/79293373>
