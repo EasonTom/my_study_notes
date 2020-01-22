@@ -261,3 +261,22 @@ mkvirtualenv -p /usr/bin/python3 envname
 进入虚拟环境：`workon envname`
 退出虚拟环境：`deactive`
 删除虚拟环境：`rmvirtualenv envname`
+
+问题：
+
+创建新环境报错：ModuleNotFoundError: No module named 'zlib'
+
+```
+mkvirtualenv -p /usr/bin/python3 spider_platform
+```
+
+已确定zlib库是安装了的，但是还是报错，推测应该是解释器路径有问题，换个已经安装成功的解释器路径
+
+```
+mkvirtualenv -p ~/.virtualenvs/benj_spider/bin/python3 spider_platform
+```
+
+
+
+
+

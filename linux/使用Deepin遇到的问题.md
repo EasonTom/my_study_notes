@@ -237,3 +237,46 @@ https://blog.csdn.net/qq_28863845/article/details/82999633
 # chromedriver下载地址
 
 <http://npm.taobao.org/mirrors/chromedriver/>
+
+
+
+# deepin安装配置jdk
+
+<https://blog.csdn.net/qq_41892229/article/details/81773079>
+
+<https://www.jianshu.com/p/67da994a7aad>
+
+# deepin安装kafka
+
+<https://blog.csdn.net/luanpeng825485697/article/details/81036028>
+
+报错：
+
+```
+错误: 找不到或无法加载主类 org.apache.zookeeper.server.quorum.QuorumPeerMain
+原因: java.lang.ClassNotFoundException: org.apache.zookeeper.server.quorum.QuorumPeerMain
+```
+
+解决：重新下载正确的包
+
+<https://www.cnblogs.com/zhoading/p/11593972.html>
+
+# 安装fiddler
+
+参考：
+
+<https://blog.csdn.net/q1ngqingsky/article/details/81413779>
+
+# deepin使用charles
+
+安装：直接在应用商店中下载安装
+
+抓手机包：<https://blog.csdn.net/zhouxin12/article/details/82149290>
+
+抓本地包：<https://www.jianshu.com/p/baea81d30380>
+
+破解：<https://www.zzzmode.com/mytools/charles/>
+
+
+
+<https://blog.csdn.net/Hh20161314/article/details/100037318>
