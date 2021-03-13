@@ -175,7 +175,13 @@ url直接输入webdav文件夹的keepass数据库文件：`http://ip:port/webdav
 它的linux版本是keepassx，直接使用apt安装：
     
     sudo apt-get install keepassx
-    
+
 然后终端输入keepassx即可运行。
 
 keepassx不支持直接打开url，所以需要将服务期上的共享文件夹映射到本地，然后打开。
+
+
+
+## 3 使用keepass和坚果云完成共享密码管理
+
+https://www.zhihu.com/question/36932954/answer/1487504294
